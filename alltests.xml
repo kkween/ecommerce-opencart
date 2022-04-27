@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OpenCart TestSuite" thread-count="2" parallel="tests">
+
+	<listeners>
+		<listener class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="OpenCart Tests">
+
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="testCases.TC_001_AccountRegistration" />
+			<class name="testCases.TC_002_Login" />
+			<!-- <class name="testCases.TC_003_LoginDDT"/> -->
+			<class name="testCases.TC_004Search" />
+			<class name="testCases.TC_005_Addcart" />
+			<class name="testCases.TC_006_ProductCompare" />
+			<class name="testCases.TC_007_WishList" />
+			<class name="testCases.TC_008_ProductDisplayPage" />
+			<class name="testCases.TC_009_ForgotPassword" />
+			<class name="testCases.TC_010_ShoppingCart" />
+			<class name="testCases.TC_011_Checkout" />
+			<class name="testCases.TC_012_MyAccount" />
+			<class name="testCases.TC_013_MyAccountInformation" />
+			<class name="testCases.TC_014_ChangePassword" />
+			<class name="testCases.TC_015_AddressBook" />
+			<class name="testCases.TC_016_OderHistory" />
+			<class name="testCases.TC_017_Downloads" />
+			<class name="testCases.TC_018_RewardPoints" />
+			<class name="testCases.TC_019_Returns" />
+			<class name="testCases.TC_020_Transections" />
+			<class name="testCases.TC_021_RecurringPayment" />
+			<class name="testCases.TC_022_Newsletter" />
+			<class name="testCases.TC_023_Affiliate" />
+			<class name="testCases.TC_024_ContactUs" />
+			<class name="testCases.TC_025_SpecialOffer" />
+			<class name="testCases.TC_026_HeaderMenuFooterOptions" />
+			<class name="testCases.TC_027_GiftCertificate" />
+			<class name="testCases.TC_028_Currency" />
+
+		</classes>
+	</test>
+
+</suite>
+

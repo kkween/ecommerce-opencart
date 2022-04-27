@@ -1,0 +1,78 @@
+14:48:57.386 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+14:48:57.433 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+14:48:57.433 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+14:48:57.433 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+14:48:57.433 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+14:48:57.433 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+14:48:57.458 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+14:48:57.458 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+14:48:57.459 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+14:48:57.459 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+14:48:57.459 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+14:48:57.459 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+14:48:57.469 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+14:48:57.469 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+14:48:57.469 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+14:49:00.591 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 3380 (auto-detected)
+14:49:00.625 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+14:49:00.625 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+14:49:00.631 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+14:49:00.632 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+14:49:00.642 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 6c:94:66:ff:fe:ac:6c:cd (auto-detected)
+14:49:00.726 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+14:49:00.726 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+14:49:00.726 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3947ecb1
+14:49:00.750 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+14:49:00.750 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+14:49:00.750 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+14:49:00.751 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+14:49:00.751 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+14:49:14.208 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x6437c52b92cf2dbf
+14:49:14.446 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Launched chrome Browser
+14:49:14.575 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Strating TC_001_AccountRegistration
+14:49:17.108 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Home Page Displayed 
+14:49:17.464 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on My Account 
+14:49:18.406 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on Register 
+14:49:18.574 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided First Name 
+14:49:18.651 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Last Name 
+14:49:18.745 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Email 
+14:49:18.806 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Telephone 
+14:49:18.865 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Password 
+14:49:18.916 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Confrmed Password 
+14:49:18.960 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Set Privacy Policy 
+14:49:19.725 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on Continue 
+14:49:24.767 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Account Registration Success 
+14:49:24.769 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Finished TC_001_AccountRegistration
+14:49:24.974 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:49:26.320 [TestNG-tests-1] INFO  testCases.TC_002_Login - Launched chrome Browser
+14:49:26.325 [TestNG-tests-1] INFO  testCases.TC_002_Login -  Starting TC_002_Login 
+14:49:30.080 [TestNG-tests-1] INFO  testCases.TC_002_Login - Home Page Displayed 
+14:49:30.242 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on My Account 
+14:49:30.625 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on Login 
+14:49:30.800 [TestNG-tests-1] INFO  testCases.TC_002_Login - Provided Email 
+14:49:30.859 [TestNG-tests-1] INFO  testCases.TC_002_Login - Provided Password 
+14:49:31.762 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on Login
+14:49:36.807 [TestNG-tests-1] INFO  testCases.TC_002_Login - Login Success 
+14:49:36.807 [TestNG-tests-1] INFO  testCases.TC_002_Login -  Finished TC_002_Login 
+14:49:36.809 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:49:38.310 [TestNG-tests-1] INFO  testCases.TC_004Search - Launched chrome Browser
+14:49:38.313 [TestNG-tests-1] INFO  testCases.TC_004Search -  Starting TC_004_Search 
+14:49:40.934 [TestNG-tests-1] INFO  testCases.TC_004Search - Home Page Displayed 
+14:49:43.153 [TestNG-tests-1] INFO  testCases.TC_004Search - Enter any Product
+14:49:55.190 [TestNG-tests-1] ERROR testCases.TC_004Search - Search Success 
+14:49:55.388 [TestNG-tests-1] INFO  testCases.TC_004Search -  Finished TC_004Search 
+14:49:55.389 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:49:57.233 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Launched chrome Browser
+14:49:57.239 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Starting TC_005_Addcart
+14:50:00.741 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Home Page Displayed 
+14:50:03.969 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Enter any Product
+14:50:08.338 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product displayed on HomePage
+14:50:08.381 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to cart
+14:50:13.449 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to viewcart
+14:50:16.867 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to view
+14:50:26.932 [TestNG-tests-1] ERROR testCases.TC_005_Addcart - Add cart  Page Failed 
+14:50:28.069 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+14:50:29.419 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Launched chrome Browser
+14:50:29.428 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Strating TC_006_ProductCompare
+14:50:32.832 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Home Page Displayed 
+14:50:36.194 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Enter any Product

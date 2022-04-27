@@ -1,0 +1,479 @@
+11:14:19.937 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 11
+11:14:19.942 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 16777216
+11:14:19.943 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+11:14:19.943 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+11:14:19.943 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11:14:19.943 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+11:14:19.944 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11:14:19.944 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: true
+11:14:19.944 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11:14:19.952 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+11:14:19.953 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+11:14:19.953 [TestNG-tests-1] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+11:14:20.274 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 1324 (auto-detected)
+11:14:20.276 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+11:14:20.277 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+11:14:20.283 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+11:14:20.284 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11:14:20.300 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 6c:94:66:ff:fe:ac:6c:cd (auto-detected)
+11:14:20.343 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+11:14:20.343 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+11:14:20.343 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@223d02ad
+11:14:20.361 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+11:14:20.361 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+11:14:20.361 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+11:14:20.361 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+11:14:20.361 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+11:14:21.210 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe63a0ed51b997388
+11:14:21.251 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Launched chrome Browser
+11:14:21.275 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Strating TC_001_AccountRegistration
+11:14:22.578 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Home Page Displayed 
+11:14:22.829 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on My Account 
+11:14:23.314 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on Register 
+11:14:23.386 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided First Name 
+11:14:23.442 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Last Name 
+11:14:23.503 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Email 
+11:14:23.551 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Telephone 
+11:14:23.600 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Password 
+11:14:23.647 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Provided Confrmed Password 
+11:14:23.691 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Set Privacy Policy 
+11:14:24.562 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Clicked on Continue 
+11:14:29.661 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Account Registration Success 
+11:14:29.665 [TestNG-tests-1] INFO  testCases.TC_001_AccountRegistration - Finished TC_001_AccountRegistration
+11:14:29.683 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:14:31.194 [TestNG-tests-1] INFO  testCases.TC_002_Login - Launched chrome Browser
+11:14:31.194 [TestNG-tests-1] INFO  testCases.TC_002_Login -  Starting TC_002_Login 
+11:14:32.704 [TestNG-tests-1] INFO  testCases.TC_002_Login - Home Page Displayed 
+11:14:32.887 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on My Account 
+11:14:33.303 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on Login 
+11:14:33.399 [TestNG-tests-1] INFO  testCases.TC_002_Login - Provided Email 
+11:14:33.462 [TestNG-tests-1] INFO  testCases.TC_002_Login - Provided Password 
+11:14:34.223 [TestNG-tests-1] INFO  testCases.TC_002_Login - Clicked on Login
+11:14:39.272 [TestNG-tests-1] INFO  testCases.TC_002_Login - Login Success 
+11:14:39.273 [TestNG-tests-1] INFO  testCases.TC_002_Login -  Finished TC_002_Login 
+11:14:39.280 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:14:40.141 [TestNG-tests-1] INFO  testCases.TC_004Search - Launched chrome Browser
+11:14:40.145 [TestNG-tests-1] INFO  testCases.TC_004Search -  Starting TC_004_Search 
+11:14:41.257 [TestNG-tests-1] INFO  testCases.TC_004Search - Home Page Displayed 
+11:14:43.512 [TestNG-tests-1] INFO  testCases.TC_004Search - Enter any Product
+11:14:55.237 [TestNG-tests-1] ERROR testCases.TC_004Search - Search Success 
+11:14:55.473 [TestNG-tests-1] INFO  testCases.TC_004Search -  Finished TC_004Search 
+11:14:55.473 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:14:56.446 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Launched chrome Browser
+11:14:56.451 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Starting TC_005_Addcart
+11:14:57.627 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Home Page Displayed 
+11:15:00.922 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - Enter any Product
+11:15:04.603 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product displayed on HomePage
+11:15:04.645 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to cart
+11:15:09.716 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to viewcart
+11:15:13.131 [TestNG-tests-1] INFO  testCases.TC_005_Addcart - product added to view
+11:15:23.192 [TestNG-tests-1] ERROR testCases.TC_005_Addcart - Add cart  Page Failed 
+11:15:23.336 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:15:24.278 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Launched chrome Browser
+11:15:24.282 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Strating TC_006_ProductCompare
+11:15:25.420 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Home Page Displayed 
+11:15:28.647 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - Enter any Product
+11:15:32.292 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - product displayed on HomePage
+11:15:35.352 [TestNG-tests-1] INFO  testCases.TC_006_ProductCompare - products comparing
+11:15:38.916 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:15:39.772 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Launched chrome Browser
+11:15:39.785 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Starting TC_007_WishList
+11:15:40.932 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Home Page Displayed 
+11:15:43.145 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Enter any Product
+11:15:53.695 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Provided Email 
+11:15:53.753 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Provided Password 
+11:15:54.716 [TestNG-tests-1] INFO  testCases.TC_007_WishList - Clicked on Login
+11:16:04.736 [TestNG-tests-1] ERROR testCases.TC_007_WishList - Search Success 
+11:16:04.914 [TestNG-tests-1] INFO  testCases.TC_007_WishList -  Finished TC_007_WishList 
+11:16:04.916 [AsyncHttpClient-1-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:16:05.836 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - Launched chrome Browser
+11:16:05.843 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - Starting TC_008_ProductDisplayPage
+11:16:09.911 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - Home Page Displayed 
+11:16:12.119 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - Enter any Product
+11:16:13.762 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - click the search button
+11:16:15.970 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - click the image
+11:16:18.667 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - click the Product
+11:16:18.719 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - click the Product Review
+11:16:21.773 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage - ProductDisplayPage  success 
+11:16:21.773 [TestNG-tests-1] INFO  testCases.TC_008_ProductDisplayPage -  Finished TC_008_ProductDisplayPage
+11:16:21.774 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:16:23.158 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Launched chrome Browser
+11:16:23.164 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Starting TC_009_ForgotPassword
+11:16:24.591 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Home Page Displayed 
+11:16:24.793 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Clicked on My Account 
+11:16:25.168 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Clicked on Login 
+11:16:25.252 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Provided Email 
+11:16:28.684 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Provided confirmation email
+11:16:31.852 [TestNG-tests-1] INFO  testCases.TC_009_ForgotPassword - Finished TC_009_ForgotPassword
+11:16:34.863 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:16:35.868 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Launched chrome Browser
+11:16:35.873 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Starting TC_010_ShoppingCart
+11:16:36.843 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Home Page Displayed 
+11:16:37.093 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Search iMac is  Displayed 
+11:16:37.854 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Search Button clicked 
+11:16:40.904 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Add to Cart clicked 
+11:16:46.311 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Shopping Cart clicked 
+11:16:51.378 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Use Coupon Code Clicked
+11:16:53.448 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Entered Use Coupon Code 
+11:16:53.493 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Estimated Shipping and Taxes clicked
+11:16:54.760 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Selected Country
+11:16:57.834 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Selected State
+11:16:58.900 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Selected PostCode
+11:16:59.953 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Get Quotes button clicked
+11:17:00.249 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Selected Radio button
+11:17:01.306 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Clicked Apply Shippiment
+11:17:06.365 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Selected Use Gift Certificate
+11:17:06.548 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - Entered Gift certificate cade entered in the text box
+11:17:07.608 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - clicked Entered Apply Gift Certificate
+11:17:09.012 [TestNG-tests-1] INFO  testCases.TC_010_ShoppingCart - click on Continue Shopping
+11:17:12.026 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:17:12.917 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - Launched chrome Browser
+11:17:12.920 [TestNG-tests-1] INFO  testCases.TC_011_Checkout -  Starting TC_004_Search 
+11:17:14.143 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - Home Page Displayed 
+11:17:16.380 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - Enter any Product
+11:17:17.018 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - click on the search button
+11:17:18.076 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - click on the add to cart button
+11:17:19.138 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - click on the view cart
+11:17:22.540 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - click on the shopping cart
+11:17:26.161 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - click on the Checkout
+11:17:27.205 [TestNG-tests-1] INFO  testCases.TC_011_Checkout - Checkout Failed 
+11:17:27.351 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:17:28.446 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Launched chrome Browser
+11:17:28.450 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount -  Starting TC_012_MyAccount 
+11:17:30.146 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Home Page Displayed 
+11:17:30.328 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Clicked on My Account 
+11:17:30.704 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Clicked on Login 
+11:17:30.765 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Provided Email 
+11:17:30.822 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Provided Password 
+11:17:31.625 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Clicked on Login
+11:17:34.687 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Click on MyAccount
+11:17:35.120 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Click on OrderHistory 
+11:17:38.173 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Click on MyAccount
+11:17:41.776 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Click on LogOut
+11:17:42.192 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Click on SiteMap Link
+11:17:45.204 [TestNG-tests-1] INFO  testCases.TC_012_MyAccount - Finished TC_012_MyAccount
+11:17:45.205 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:17:46.339 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Launched chrome Browser
+11:17:46.342 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation -  Starting TC_013_MyAccountInformation 
+11:17:47.397 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Home Page Displayed 
+11:17:47.587 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Clicked on My Account 
+11:17:47.955 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Clicked on Login 
+11:17:48.021 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Provided Email 
+11:17:48.075 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Provided Password 
+11:17:48.852 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Clicked on Login
+11:17:52.316 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Click on Edit Your Account Infomation
+11:17:55.495 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Edit Telephone number
+11:17:58.496 [TestNG-tests-1] INFO  testCases.TC_013_MyAccountInformation - Finished TC_013_MyAccountInformation
+11:17:58.496 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:17:59.906 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Launched chrome Browser
+11:17:59.909 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword -  Starting TC_013_MyAccountInformation 
+11:18:02.013 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Home Page Displayed 
+11:18:02.202 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Clicked on My Account 
+11:18:02.586 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Clicked on Login 
+11:18:02.657 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Provided Email 
+11:18:02.711 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Provided Password 
+11:18:03.474 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Clicked on Login
+11:18:13.354 [TestNG-tests-1] INFO  testCases.TC_014_ChangePassword - Home Page Displayed
+11:18:16.365 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:18:17.542 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Launched chrome Browser
+11:18:17.547 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook -  Starting TC_015_AddressBook
+11:18:18.528 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Home Page Displayed 
+11:18:18.717 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Clicked on My Account 
+11:18:19.145 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Clicked on Login 
+11:18:19.213 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Provided Email 
+11:18:19.267 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Provided Password 
+11:18:20.058 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Clicked on Login
+11:18:23.440 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - click on AddressBook
+11:18:26.977 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - click on new AddressBook
+11:18:27.335 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Click on Back Button
+11:18:30.346 [TestNG-tests-1] INFO  testCases.TC_015_AddressBook - Finished TC_015_AddressBook
+11:18:30.346 [AsyncHttpClient-1-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:18:31.476 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Launched chrome Browser
+11:18:31.480 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory -  Starting TC_016_OrderHistory
+11:18:32.629 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Home Page Displayed 
+11:18:32.806 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Clicked on My Account 
+11:18:33.196 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Clicked on Login 
+11:18:33.263 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Provided Email 
+11:18:33.319 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Provided Password 
+11:18:34.075 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Clicked on Login
+11:18:37.529 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Clicked on Order History
+11:18:40.535 [TestNG-tests-1] INFO  testCases.TC_016_OderHistory - Finished TC_016_OrderHistory
+11:18:40.536 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:18:42.169 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Launched chrome Browser
+11:18:42.172 [TestNG-tests-1] INFO  testCases.TC_017_Downloads -  Starting TC_016_OrderHistory
+11:18:43.172 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Home Page Displayed 
+11:18:43.344 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Clicked on My Account 
+11:18:43.720 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Clicked on Login 
+11:18:43.786 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Provided Email 
+11:18:43.839 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Provided Password 
+11:18:44.610 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Clicked on Login
+11:18:48.012 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Clicked on Site Map
+11:18:48.455 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Clicked on Download
+11:18:51.466 [TestNG-tests-1] INFO  testCases.TC_017_Downloads - Finished TC_017_Downloads
+11:18:51.466 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:18:52.607 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Launched chrome Browser
+11:18:52.610 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints -  Starting TC_016_OrderHistory
+11:18:53.686 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Home Page Displayed 
+11:18:53.871 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Clicked on My Account 
+11:18:54.250 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Clicked on Login 
+11:18:54.318 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Provided Email 
+11:18:54.372 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Provided Password 
+11:18:55.139 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Clicked on Login
+11:19:01.515 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Click on  RewardPoints
+11:19:01.515 [TestNG-tests-1] INFO  testCases.TC_018_RewardPoints - Finished TC_018_RewardPoints
+11:19:01.517 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:19:02.624 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Launched chrome Browser
+11:19:02.628 [TestNG-tests-1] INFO  testCases.TC_019_Returns -  Starting TC_016_OrderHistory
+11:19:03.748 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Home Page Displayed 
+11:19:03.936 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Clicked on My Account 
+11:19:04.311 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Clicked on Login 
+11:19:04.383 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Provided Email 
+11:19:04.441 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Provided Password 
+11:19:05.217 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Clicked on Login
+11:19:11.842 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Click on Returns
+11:19:11.842 [TestNG-tests-1] INFO  testCases.TC_019_Returns - Finished TC_019_Returns
+11:19:11.842 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:19:13.040 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Launched chrome Browser
+11:19:13.048 [TestNG-tests-1] INFO  testCases.TC_020_Transections -  Starting TC_016_OrderHistory
+11:19:14.139 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Home Page Displayed 
+11:19:14.317 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Clicked on My Account 
+11:19:14.690 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Clicked on Login 
+11:19:14.757 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Provided Email 
+11:19:14.806 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Provided Password 
+11:19:15.625 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Clicked on Login
+11:19:19.015 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Clicked on Transections
+11:19:22.025 [TestNG-tests-1] INFO  testCases.TC_020_Transections - Finished TC_020_Transections
+11:19:22.028 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:19:27.060 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Launched chrome Browser
+11:19:27.063 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment -  Starting TC_021_RecurringPayment
+11:19:31.528 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Home Page Displayed 
+11:19:31.719 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Clicked on My Account 
+11:19:32.162 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Clicked on Login 
+11:19:32.240 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Provided Email 
+11:19:32.289 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Provided Password 
+11:19:33.590 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Clicked on Login
+11:19:37.105 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Clicked on Recurring Payement
+11:19:40.119 [TestNG-tests-1] INFO  testCases.TC_021_RecurringPayment - Finished TC_021_RecurringPayment
+11:19:40.126 [AsyncHttpClient-1-5] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:19:41.562 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Launched chrome Browser
+11:19:41.568 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter -  Starting TC_022_NewsLetter
+11:19:42.792 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Home Page Displayed 
+11:19:43.025 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on My Account 
+11:19:43.494 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on Login 
+11:19:43.563 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Provided Email 
+11:19:43.613 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Provided Password 
+11:19:44.475 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on Login
+11:19:50.943 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on NewsLetter
+11:19:54.001 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on NewsLetter radio button
+11:19:57.965 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Clicked on Contionue Button
+11:19:57.965 [TestNG-tests-1] INFO  testCases.TC_022_Newsletter - Finished TC_022_News Letter
+11:19:57.965 [AsyncHttpClient-1-8] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:19:59.253 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Launched chrome Browser
+11:19:59.262 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate -  Starting TC_023_Affiliate
+11:20:00.800 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Home Page Displayed 
+11:20:01.008 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Clicked on My Account 
+11:20:01.418 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Clicked on Login 
+11:20:01.490 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Provided Email 
+11:20:01.538 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Provided Password 
+11:20:02.369 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Clicked on Login
+11:20:05.873 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Click Edit your affilicate information
+11:20:05.964 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Enter Company Name
+11:20:06.053 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Enter WebSite Name
+11:20:06.138 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Enter tax
+11:20:06.184 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Select Payment Mehtod
+11:20:06.270 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Enter Cheque Payee Name
+11:20:14.027 [TestNG-tests-1] INFO  testCases.TC_023_Affiliate - Finishe TC_023_Affiliate
+11:20:14.027 [AsyncHttpClient-1-3] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:20:15.242 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Launched chrome Browser
+11:20:15.247 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs -  Starting TC_015_AddressBook
+11:20:16.594 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Home Page Displayed 
+11:20:16.818 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Clicked on My Account 
+11:20:17.297 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Clicked on Login 
+11:20:17.374 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Provided Email 
+11:20:17.432 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Provided Password 
+11:20:18.255 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Clicked on Login
+11:20:21.752 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - click on Contact Us Link
+11:20:23.856 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Entered Enquiry Message
+11:20:26.673 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - click on Submit Button
+11:20:28.676 [TestNG-tests-1] INFO  testCases.TC_024_ContactUs - Finished TC_024_CotactUs
+11:20:28.676 [AsyncHttpClient-1-6] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:20:29.706 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Launched chrome Browser
+11:20:29.706 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer -  Starting TC_015_AddressBook
+11:20:30.840 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Home Page Displayed 
+11:20:31.126 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Clicked on My Account 
+11:20:31.592 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Clicked on Login 
+11:20:31.656 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Provided Email 
+11:20:31.707 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Provided Password 
+11:20:32.601 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Clicked on Login
+11:20:33.239 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Click on Specials Link
+11:20:36.291 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Click on Add to Cart
+11:20:39.372 [TestNG-tests-1] INFO  testCases.TC_025_SpecialOffer - Add to Cart
+11:20:42.385 [AsyncHttpClient-1-9] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:20:43.968 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Launched chrome Browser
+11:20:43.996 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions -  Starting TC_026_HeaderMenuFooterOptions
+11:20:45.281 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Home Page Displayed 
+11:20:45.819 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Click on footer option: Brands link
+11:20:48.289 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Click on Product Cannon
+11:20:50.340 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Click on Product on Grid format
+11:20:52.413 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Click on Product Compare
+11:20:54.427 [TestNG-tests-1] INFO  testCases.TC_026_HeaderMenuFooterOptions - Finished TC_026_HeaderMenuFooterOptions
+11:20:54.427 [AsyncHttpClient-1-4] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:20:56.652 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Launched chrome Browser
+11:20:56.655 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate -  Starting TC_027_GiftCerticate
+11:20:59.028 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Home Page Displayed 
+11:20:59.643 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Click on footer option: Gift Certicate link
+11:21:01.714 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Enter the Recipient's Name
+11:21:01.784 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Enter the Recipient's email
+11:21:01.833 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Enter the Your Name
+11:21:03.906 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Enter the Your Email
+11:21:03.951 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - click on Christmas Radio Button
+11:21:03.999 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - click on Message
+11:21:06.122 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - click on Amount
+11:21:08.187 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - click on Agree Check Box
+11:21:10.909 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - click on Continue Button
+11:21:12.913 [TestNG-tests-1] INFO  testCases.TC_027_GiftCertificate - Finished TC_027_GiftCertificate
+11:21:12.913 [AsyncHttpClient-1-7] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:21:14.011 [TestNG-tests-1] INFO  testCases.TC_028_Currency - Launched chrome Browser
+11:21:14.019 [TestNG-tests-1] INFO  testCases.TC_028_Currency -  Starting TC_027_GiftCerticate
+11:21:15.541 [TestNG-tests-1] INFO  testCases.TC_028_Currency - Home Page Displayed 
+11:21:15.788 [TestNG-tests-1] INFO  testCases.TC_028_Currency - Clcik on currency
+11:21:19.523 [TestNG-tests-1] INFO  testCases.TC_028_Currency - Clcik on US Dollar
+11:21:24.538 [TestNG-tests-1] INFO  testCases.TC_028_Currency - Finsihed TC_028_Currency
+11:21:24.541 [AsyncHttpClient-1-2] TRACE io.netty.handler.codec.http.websocketx.WebSocket08FrameEncoder - Encoding WebSocket Frame opCode=8 length=26
+11:21:25.864 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 30 thread-local buffer(s) from thread: AsyncHttpClient-1-3
+11:21:25.864 [AsyncHttpClient-1-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 30 thread-local buffer(s) from thread: AsyncHttpClient-1-4
+11:21:25.864 [AsyncHttpClient-1-5] DEBUG io.netty.buffer.PoolThreadCache - Freed 36 thread-local buffer(s) from thread: AsyncHttpClient-1-5
+11:21:25.864 [AsyncHttpClient-1-6] DEBUG io.netty.buffer.PoolThreadCache - Freed 26 thread-local buffer(s) from thread: AsyncHttpClient-1-6
+11:21:25.865 [AsyncHttpClient-1-7] DEBUG io.netty.buffer.PoolThreadCache - Freed 26 thread-local buffer(s) from thread: AsyncHttpClient-1-7
+14:48:57.002 [TestNG-tests-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+14:48:57.023 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+14:48:57.023 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+14:48:57.026 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@c2bdc38
+14:48:57.043 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - Platform: Windows
+14:48:57.045 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+14:48:57.045 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+14:48:57.046 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+14:48:57.047 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+14:48:57.047 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+14:48:57.047 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:110) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:96) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:86) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) ~[selenium-chromium-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at testBase.BaseClass.setup(BaseClass.java:42) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:764) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:585) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66) ~[testng-7.3.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+14:48:57.053 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+14:48:57.054 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @548e7350
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:109) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:218) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:197) ~[netty-common-4.1.58.Final.jar:4.1.58.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.2.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:98) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:51) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:147) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:110) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:96) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:86) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:68) ~[selenium-remote-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:78) ~[selenium-chromium-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:99) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41) ~[selenium-chrome-driver-4.0.0-beta-2.jar:?]
+	at testBase.BaseClass.setup(BaseClass.java:42) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:61) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:366) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:320) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122) ~[testng-7.3.0.jar:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:764) ~[testng-7.3.0.jar:?]
+	at org.testng.TestRunner.run(TestRunner.java:585) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[testng-7.3.0.jar:?]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425) ~[testng-7.3.0.jar:?]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:66) ~[testng-7.3.0.jar:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+14:48:57.056 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+14:48:57.056 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+14:48:57.056 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 2095054848 bytes (maybe)
+14:48:57.056 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: C:\Users\kween\AppData\Local\Temp (java.io.tmpdir)
+14:48:57.056 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+14:48:57.057 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+14:48:57.057 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+14:48:57.058 [TestNG-tests-1] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+14:48:57.058 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+14:48:57.065 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+14:48:57.141 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+14:48:57.142 [TestNG-tests-1] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+14:48:57.180 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+14:48:57.180 [TestNG-tests-1] DEBUG io.netty.handler.ssl.JdkSslContext - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+14:48:57.238 [TestNG-tests-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 8
+14:48:57.248 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+14:48:57.248 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+14:48:57.324 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2e81c8ca
+14:48:57.326 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6ed37129
+14:48:57.327 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@350560ce
+14:48:57.327 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@62de7a94
+14:48:57.328 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2f8f3c10
+14:48:57.329 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5aa05af1
+14:48:57.330 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@44bd427b
+14:48:57.330 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@55a69aa2

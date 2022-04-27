@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [OpenCart TestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="2" name="OpenCart Tests(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testCases.TC_004Search">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_search"/>
+        </methods>
+      </class> <!-- testCases.TC_004Search -->
+      <class name="testCases.TC_024_ContactUs">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_contactus"/>
+        </methods>
+      </class> <!-- testCases.TC_024_ContactUs -->
+      <class name="testCases.TC_007_WishList">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_wishlist"/>
+        </methods>
+      </class> <!-- testCases.TC_007_WishList -->
+      <class name="testCases.TC_023_Affiliate">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_Newletter"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_023_Affiliate -->
+      <class name="testCases.TC_028_Currency">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_currency"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_028_Currency -->
+      <class name="testCases.TC_013_MyAccountInformation">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_MyAccountInformation"/>
+        </methods>
+      </class> <!-- testCases.TC_013_MyAccountInformation -->
+      <class name="testCases.TC_021_RecurringPayment">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_RecurringPayment"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_021_RecurringPayment -->
+      <class name="testCases.TC_002_Login">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_Login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_002_Login -->
+      <class name="testCases.TC_020_Transections">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_transections"/>
+        </methods>
+      </class> <!-- testCases.TC_020_Transections -->
+      <class name="testCases.TC_008_ProductDisplayPage">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_productdisplay"/>
+        </methods>
+      </class> <!-- testCases.TC_008_ProductDisplayPage -->
+      <class name="testCases.TC_025_SpecialOffer">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_contactus"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_025_SpecialOffer -->
+      <class name="testCases.TC_005_Addcart">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_addcart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_005_Addcart -->
+      <class name="testCases.TC_010_ShoppingCart">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_ShoppingCart"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_010_ShoppingCart -->
+      <class name="testCases.TC_006_ProductCompare">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_productcompare"/>
+        </methods>
+      </class> <!-- testCases.TC_006_ProductCompare -->
+      <class name="testCases.TC_014_ChangePassword">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_changepassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_014_ChangePassword -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_account_Registration"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+      <class name="testCases.TC_019_Returns">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_Returns"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_019_Returns -->
+      <class name="testCases.TC_015_AddressBook">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_Addressbook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_015_AddressBook -->
+      <class name="testCases.TC_003_LoginDDT">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_LoginDDT"/>
+        </methods>
+      </class> <!-- testCases.TC_003_LoginDDT -->
+      <class name="testCases.TC_026_HeaderMenuFooterOptions">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_HeaderFooterMenuOptions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_026_HeaderMenuFooterOptions -->
+      <class name="testCases.TC_009_ForgotPassword">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_forgotpassword"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_009_ForgotPassword -->
+      <class name="testCases.TC_011_Checkout">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_checkout"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_011_Checkout -->
+      <class name="testCases.TC_027_GiftCertificate">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_HeaderFooterMenuOptions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_027_GiftCertificate -->
+      <class name="testCases.TC_022_Newsletter">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_Newletter"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_022_Newsletter -->
+      <class name="testCases.TC_012_MyAccount">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_Myaccount"/>
+        </methods>
+      </class> <!-- testCases.TC_012_MyAccount -->
+      <class name="testCases.TC_017_Downloads">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_downloads"/>
+        </methods>
+      </class> <!-- testCases.TC_017_Downloads -->
+      <class name="testCases.TC_016_OderHistory">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_OrderHistory"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_016_OderHistory -->
+      <class name="testCases.TC_018_RewardPoints">
+        <methods>
+          <include name="teadDown"/>
+          <include name="test_RewardPoint"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.TC_018_RewardPoints -->
+    </classes>
+  </test> <!-- OpenCart Tests(failed) -->
+</suite> <!-- Failed suite [OpenCart TestSuite] -->

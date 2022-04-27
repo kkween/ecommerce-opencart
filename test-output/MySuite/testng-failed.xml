@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="MYTest(failed)">
+    <classes>
+      <class name="testCases.TC_001_AccountRegistration">
+        <methods>
+          <include name="teadDown"/>
+          <include name="setup"/>
+          <include name="test_account_Registration"/>
+        </methods>
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </classes>
+  </test> <!-- MYTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->
