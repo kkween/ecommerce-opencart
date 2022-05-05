@@ -19,7 +19,7 @@ Functionality covered in this automation Project : (Java, Selenium, TestNG, Mave
 
 - Checkout
 
-Maven Project and add dependencies in pom.xml:
+Added dependencies in pom.xml:
 
 - selenium-java
 
