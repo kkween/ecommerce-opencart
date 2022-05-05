@@ -3,7 +3,7 @@ Selenium Hybrid Framework:
 
 The project is based on Java-Selenium technology to automate https://demo.opencart.com/index.php website. 
 
-Functionality covered in this automation Project : (Java, Selenium, TestNG, Maven & Page Object Model):
+Functionality covered in this automation Project : (Java, Selenium, TestNG, Maven, Page Object Model & Page Factory):
 
 - Registration of new user
 
