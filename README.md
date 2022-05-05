@@ -62,8 +62,9 @@ Running the script with different set of data. Executing the scripts end-to-end 
 
 Folder Structure:
 =================
-Project Name
-src/test/java
+- Project Name
+
+- src/test/java
 
 - pageObjects (Package)
 
